@@ -6,6 +6,7 @@ nav {
     position: fixed;
     transition:500ms ease;
     background:transparent;
+    z-index: 100
   }
   .nav-title > span {
     font-size: larger;
