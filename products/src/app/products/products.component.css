@@ -1,0 +1,25 @@
+.header-img{
+    background-image: url('../../assets/img/photo-1578426720323-6d3b67133446.jpg') ;
+    background-repeat: no-repeat;
+     background-position: center;
+    height: 50%;
+    background-size: cover;
+}
+.text-descrition {
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    text-transform : uppercase;
+    padding: 10%;
+}
+.cover-home{
+    background-color: #3935355c;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width:600px){
+    .text-descrition{
+        padding: 25%;
+    }
+}
