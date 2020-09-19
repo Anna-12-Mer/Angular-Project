@@ -123,3 +123,9 @@
 .card-services{
   border: none;
 }
+.zoom {
+transition: transform 1.2s; /* Animation */
+}
+.zoom:hover{
+	transform: scale(1.5); 
+}
