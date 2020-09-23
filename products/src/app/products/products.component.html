@@ -2,12 +2,24 @@
   <div class="header-img">
     <div class="cover-home">
       <div class="text-descrition">
-        <h1 data-aos="fade-up"> Our Products
+        <h1 data-aos="fade-up"><a class="route" [routerLink]="['/home']"><i class="fas fa-home"></i></a> >> <a
+            class="route" [routerLink]="['/products']"><span>Our Products</span></a>
         </h1>
       </div>
     </div>
   </div>
-  <div class="products">
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let p of prod">
+        <div class="grid">
+          <figure class="effect-zoe">
+            <img src="../../assets/img/prod1.jpg" alt="img25" />
+            <figcaption>
+              <h2>Creative <span>{{p}}</span></h2>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
