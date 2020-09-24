@@ -34,7 +34,19 @@ nav {
     display: inline;
     float: right;
     font-size: 18px;
+        background: none;
+    height: auto;
+    left: auto;
+    margin-left: auto;
+    opacity: 1;
+    padding-top: 0;
+    position: static;
+    top: auto;
+    transform: none;
+    visibility: visible;
+    width: auto
   }
+
 
   .nav > .nav-links > a {
     display: inline-block;

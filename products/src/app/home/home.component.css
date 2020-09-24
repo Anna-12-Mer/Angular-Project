@@ -119,7 +119,39 @@
 	 transform-origin: left;
 }
 /* news */
+.carousel {
+    position: relative;
+    padding: 35px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #0009;
+    background-color: rgb(174 144 92);
+    border: 1px solid #aa1429;
+    border-radius: 10px;
+}
+.carousel-control.left {
 
+    background-image: linear-gradient(to right,rgb(250 175 175) 0,rgba(0,0,0,.0001) 100%);
+  }
+  .carousel-control.right {
+
+    background-image: linear-gradient(to left,rgb(250 175 175) 0,rgba(0,0,0,.0001) 100%);
+  }
+    .style-title{
+        padding: 15px;
+  }
+   @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
 /* About Section  */
 .card-services{
   border: none;
@@ -139,7 +171,7 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 10px 5%;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
