@@ -165,7 +165,9 @@
 	list-style: none;
 	text-align: center;
 }
-
+.bg-grey{
+  background-color: #aa142912;
+}
 /* Common style */
 .grid figure {
 	position: relative;
